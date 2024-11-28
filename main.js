@@ -24,6 +24,36 @@ const tools = [
         title: 'Word Counter',
         description: 'Copy and paste your text into the online editor to count its words and characters.',
         url: 'https://codealphabravosite.github.io/Noteepadd/'
+    },
+    
+    {   
+        title: 'Script Writer',
+        description: 'Write Script Effortlessly (text dont expand)',
+        url: 'https://codealphabravosite.github.io/Notepad/'
+    },
+
+   {
+        title: 'Writer',
+        description: 'Write Script Effortlessly (text expand)',
+        url: 'https://codealphabravosite.github.io/Writer/'
+    },
+
+   {
+        title: 'VoiceNote',
+       description: ' Convert Audio into High Quality Text',
+       url: 'https://codealphabravosite.github.io/trans/'
+    },
+
+   {
+        title: 'Quick Notes',
+       description: 'Write Quick Text',
+       url: 'https://codealphabravosite.github.io/NotesApp/'
+    },
+
+   {
+        title: 'Library',
+       description: 'Library to manage Text Notes',
+       url: 'https://codealphabravosite.github.io/Promp/'
     }
 ];
 

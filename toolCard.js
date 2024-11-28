@@ -6,7 +6,7 @@ function createToolCard(tool) {
             <h3>${tool.title}</h3>
             <p>${tool.description}</p>
             <a href="${tool.url}" class="btn" target="_blank" rel="noopener noreferrer">
-                Try This
+                Use Now
             </a>
         </div>
     `;

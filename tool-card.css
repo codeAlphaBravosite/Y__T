@@ -1,0 +1,63 @@
+.tool-card {
+    background: var(--card-bg);
+    border-radius: var(--border-radius-lg);
+    padding: 40px;
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-speed) cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.tool-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--gradient-start), var(--gradient-end));
+    opacity: 0;
+    transition: opacity var(--transition-speed) ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-lg);
+}
+
+.tool-card:hover::before {
+    opacity: 1;
+}
+
+.tool-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 16px;
+    font-size: 1.8rem;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.tool-card h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: var(--accent-color);
+    border-radius: 2px;
+}
+
+.tool-card p {
+    margin: 0 0 24px 0;
+    color: var(--text-color);
+    opacity: 0.85;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.tool-card .icon {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}

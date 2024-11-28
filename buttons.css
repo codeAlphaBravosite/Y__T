@@ -5,9 +5,9 @@
     justify-content: center;
     background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
     color: var(--white);
-    padding: 14px 32px;
+    padding: 10px 25px;
     border-radius: var(--border-radius);
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.1rem;
     transition: all var(--transition-speed) ease;
     position: relative;
@@ -40,15 +40,6 @@
 .hero-cta:focus {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(255, 68, 68, 0.3);
-}
-
-.hero-cta {
-    font-size: 1.2rem;
-    padding: 16px 40px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    background: var(--white);
-    color: var(--primary-color);
 }
 
 .hero-cta:hover {

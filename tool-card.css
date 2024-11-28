@@ -31,7 +31,7 @@
 
 .tool-card h3 {
     color: var(--secondary-color);
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     font-size: 1.8rem;
     position: relative;
     padding-bottom: 16px;
@@ -58,6 +58,6 @@
 
 .tool-card .icon {
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: var(--primary-color);
 }

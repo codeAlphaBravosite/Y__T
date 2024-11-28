@@ -1,7 +1,7 @@
 .hero {
     background: linear-gradient(135deg, var(--gradient-start) 0%, var(--gradient-end) 100%);
     color: var(--white);
-    padding: 120px 0 80px;
+    padding: 120px 0 160px;
     position: relative;
     overflow: hidden;
 }
@@ -15,6 +15,7 @@
     height: 200%;
     background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
     animation: pulse 15s infinite;
+    pointer-events: none;
 }
 
 .hero::after {
@@ -23,8 +24,9 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px;
-    background: linear-gradient(to bottom, transparent, var(--background-color));
+    height: 160px;
+    background: linear-gradient(to bottom, transparent 0%, var(--background-color) 100%);
+    pointer-events: none;
 }
 
 @keyframes pulse {

@@ -16,6 +16,7 @@
 
 .hero h1 {
     font-size: 4rem;
+    color: #000000;
     margin-bottom: 24px;
     letter-spacing: -1px;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.1);

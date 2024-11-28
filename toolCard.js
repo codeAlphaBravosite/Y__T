@@ -14,11 +14,11 @@ function createToolCard(tool) {
 
 function getToolIcon(title) {
     const icons = {
-        'Similar Channel Viewer': '👥',
-        'YT Video Viewer': '🎥',
-        'Publish Date Checker': '📅',
-        'YT Comments Extractor': '💬',
-        'Online Notepad': '📝'
+        'Similar Channel Viewer': '',
+        'YT Video Viewer': '',
+        'Publish Date Checker': '',
+        'YT Comments Extractor': '',
+        'Online Notepad': ''
     };
-    return icons[title] || '🔧';
+    return icons[title] || '';
 }

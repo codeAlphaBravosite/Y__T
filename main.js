@@ -60,7 +60,14 @@ const tools = [
         title: 'StoryboardPro',
        description: 'create storyboards quickly with ⧉ StoryboardPro',
        url: 'https://codealphabravosite.github.io/Storyboard/'
-       }
+       },
+    
+   {
+        title: 'SB Tool',
+       description: 'Convert Your Script to Scene easily',
+       url: 'https://codealphabravosite.github.io/sb-tool/'
+   }
+    
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

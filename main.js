@@ -66,7 +66,13 @@ const tools = [
         title: 'SB Tool',
        description: 'Convert Your Script to Scene easily',
        url: 'https://codealphabravosite.github.io/sb-tool/'
-   }
+   },
+
+    {
+        title: 'Audio.Studio',
+       description: '',
+       url: 'https://codealphabravosite.github.io/DS/'
+    }
     
 ];
 

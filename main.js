@@ -78,6 +78,30 @@ const tools = [
         title: 'Life Calendar',
        description: '',
        url: 'https://codealphabravosite.github.io/me/'
+    },
+
+    {
+        title: 'SB Tool 2',
+       description: '',
+       url: 'https://codealphabravosite.github.io/SB2/'
+    },
+
+    {
+        title: 'Library 2',
+       description: '',
+       url: 'https://codealphabravosite.github.io/prompp/'
+    },
+
+    {
+        title: 'SFX Cheat Sheet',
+       description: '',
+       url: 'https://codealphabravosite.github.io/Sffx/'
+    },
+
+    {
+        title: 'SB Home',
+       description: '',
+       url: 'https://codealphabravosite.github.io/sb-home/'
     }
     
 ];

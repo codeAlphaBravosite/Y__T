@@ -102,6 +102,13 @@ const tools = [
         title: 'SB Home',
        description: '',
        url: 'https://codealphabravosite.github.io/sb-home/'
+    },
+
+    
+    {
+        title: 'CreateMode',
+       description: '',
+       url: 'https://codealphabravosite.github.io/CR/'
     }
     
 ];

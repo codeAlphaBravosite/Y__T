@@ -109,6 +109,13 @@ const tools = [
         title: 'CreateMode',
        description: '',
        url: 'https://codealphabravosite.github.io/CR/'
+    },
+
+    
+    {
+        title: 'LogReel Pro',
+       description: '',
+       url: 'https://codealphabravosite2.github.io/LR'
     }
     
 ];

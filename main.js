@@ -108,7 +108,7 @@ const tools = [
     {
         title: 'CreateMode',
        description: '',
-       url: 'https://codealphabravosite.github.io/CR/'
+       url: 'https://codealphabravosite.github.io/CM/'
     },
 
     
@@ -123,6 +123,12 @@ const tools = [
         title: 'Goalio',
        description: '',
        url: 'https://codealphabravosite.github.io/GL/'
+        },
+
+    {
+        title: 'Syllabook',
+       description: '',
+       url: 'https://codealphabravosite.github.io/STDY/'
         }
     
 ];

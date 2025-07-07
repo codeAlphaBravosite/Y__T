@@ -129,6 +129,12 @@ const tools = [
         title: 'Syllabook',
        description: '',
        url: 'https://codealphabravosite.github.io/STDY/'
+        },
+
+    {
+        title: 'Convert2Anki',
+       description: '',
+       url: 'https://codealphabravosite.github.io/FCard'
         }
     
 ];
